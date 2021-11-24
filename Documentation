@@ -1,0 +1,20 @@
+Note We Require user ids to scrap data from IGR website. 
+
+
+Steps to scrap detailed IGR DATA (description):
+# use hardcodeindex.py file.
+# change the location name at line number 82
+# put valid user name and password to continue scraping, since the website only allows limited number of search per user.
+# variable "nn" at line 109 represent record number. hence when we are scraping a location for first time, keep it as 0, later change the value to the specific key number from the json file thats generated
+# When we are freshly scraping for a location, we uncomment line 234 and 238, so as to create a json file with location specific name. later we uncomment from line number 210 to 219 with file name same as the location we are scraping.
+# use werty.py file
+# change the location we are scraping in line number 83
+# at line 124 replace the index specified in ft list as the one we want to scrap. 
+# copy the data data extracted from the terminal and paste it on testbed.py files oi dictionary. 
+# change the file name at line number 41 to the file that we are scraping. than run. 
+
+Steps to scrap basic information of igr data. 
+# use tapioca.py.
+# change the location name at line number 73
+# change the file name at line number 147. 
+
